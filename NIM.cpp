@@ -1,4 +1,4 @@
-//NIM dabs október 1997
+//NIM dabts október 1995
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
@@ -31,8 +31,10 @@ int hrugufjoldi;
 //Hér byrjar aðalforritið:
 int main( )
 {
-	int val;
-	do
+
+cout << "Arora og Daniel" << endl;
+int val;
+do
 	{
 		cout << endl << endl << endl;
 		cout << "                ADALVALMYND " << endl << endl;
@@ -100,7 +102,7 @@ void hjalp( )
 	cout << "(their akveda sjalfir hve margar hrugur og hve margar " << endl;
 	cout << "eldspytur i hverri hrugu) og skiptast svo a um ad " << endl;
 	cout << "draga eldspytur ur einhverri hrugunni.  Their mega " << endl;
-	cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
+		cout << "taka eina eldspytu, nokkrar eda allar ur einni " << endl;
 	cout << "hrugunni en their mega aldrei taka ur fleiri en " << endl;
 	cout << "einni hrugu i einu.  Sa sem tekur sidustu eldspytuna " << endl;
 	cout << "ur sidustu hrugunni vinnur.  Gangi ykkur vel! " << endl << endl;
@@ -206,7 +208,7 @@ void tolva( int* hruga )
 	}
 	else 
 	{
-		cout << "      Eg tek " << eldspytur << " eldspytu ur hrugu nr. ";
+		cout << "     Eg og Danni tokum " << eldspytur << " eldspytu ur hrugu nr. ";
 	}
 	cout << hrugunumer << "." << endl;
 
